@@ -1,0 +1,50 @@
+# header-pic{
+	width: 80px;
+	height: 30px;
+} 
+.quote{
+	border-radius: 3px;
+	display:block;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-weight: bolder;
+	position:relative;
+	text-align:center;
+	padding:1rem 1.2rem;
+	font-size: 40px;
+	margin:1rem auto 2rem;
+	background:#ffffff;
+	box-sizing: border-box;
+	width:auto;
+} 
+.card{
+	display: block;
+	float: center;
+	width: auto;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    position:auto ;
+    top:20px;
+    left:300px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-content p{
+	font-weight: bolder;
+	font-size: 20px;
+}
+.card-title{
+	font-weight:bolder;
+	color:black;
+}
+.intro-text{
+	font-size: 50px;
+}
+.footer.footer-copyright.container{
+	background-color: grey darken-3
+}
+.page-footer grey darken-3.footer-copyright a{
+	text-align:left;
+	color:white;
+}
